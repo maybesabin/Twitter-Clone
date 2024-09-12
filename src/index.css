@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* Secondary Color: #181818  */
+
+#twitterLogo{
+    padding: 15px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+#twitterLogo:hover{
+    cursor: pointer;
+    background-color: #181818;
+}
+
+#container div{
+    border-radius: 35px;
+    padding: 10px 15px;
+    transition: all .3s;
+}
+
+#container div:hover{
+    cursor: pointer;
+    background-color: #181818;
+}
+
+#postComponents div{
+    color: #1d9bf0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#postComponents div:hover{
+    background-color: #031018;
+}
