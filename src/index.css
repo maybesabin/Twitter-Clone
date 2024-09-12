@@ -53,4 +53,37 @@ body{
     justify-content: center;
     gap: 10px;
     font-size: small;
+    width: 70px;
+    height: 40px;
+    transition: all .3s;
+    border-radius: 45px;
+}
+
+#postOptions div:nth-child(1):hover {
+    background-color: #0a171f;
+    color: #1a89d4;
+ 
+}
+
+#postOptions div:nth-child(2):hover {
+    background-color: #071a14;
+    color: #00b478;
+
+}
+
+#postOptions div:nth-child(3):hover {
+    background-color: #200914;
+     color: #d91670;
+
+}
+
+#postOptions div:nth-child(4):hover {
+    background-color: #0a171f;
+    color: #1a89d4;
+ 
+}
+
+#bookmarkDiv div:hover{
+    background-color: #0a171f;
+    color: #1a89d4;
 }
