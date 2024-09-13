@@ -57,6 +57,7 @@ body{
     height: 40px;
     transition: all .3s;
     border-radius: 45px;
+    color: gray;
 }
 
 #postOptions div:nth-child(1):hover {

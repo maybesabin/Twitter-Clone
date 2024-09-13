@@ -16,25 +16,25 @@ const PostOptions = () => {
     return (
         <div className='flex justify-between w-[107%] pt-6 ml-[-10px]' id='postOptions'>
             <div onClick={() => setCommentCount(commentCount + 1)}>
-                <ModeCommentIcon className={`${commentCount ? "text-[#1a89d4]" : "text-white"}`} fontSize='small' />
-                <span>{commentCount}</span>
+                <ModeCommentIcon className={`${commentCount ? "text-[#1a89d4]" : "text-[#808080]"}`} fontSize='small' />
+                <span className={`${commentCount ? "text-white" : "text-[#808080]"}`}>{commentCount}</span>
             </div>
             <div onClick={() => setRepostCount(repostCount + 1)}>
-                <CachedIcon className={`${repostCount ? "text-[#00b478]" : "text-white"}`} fontSize='small' />
-                <span>{repostCount}</span>
+                <CachedIcon className={`${repostCount ? "text-[#00b478]" : "text-[#808080]"}`} fontSize='small' />
+                <span className={`${repostCount ? "text-white" : "text-[#808080]"}`}>{repostCount}</span>
             </div>
             <div onClick={() => setLikeCount(likeCount + 1)}>
-                <FavoriteIcon className={`${likeCount ? "text-[#d91670]" : "text-white"}`}  fontSize='small' />
-                <span>{likeCount}</span>
+                <FavoriteIcon className={`${likeCount ? "text-[#d91670]" : "text-[#808080]"}`}  fontSize='small' />
+                <span className={`${likeCount ? "text-white" : "text-[#808080]"}`}>{likeCount}</span>
             </div>
             <div>
                 <EqualizerIcon fontSize='small' />
-                <span>100</span>
+                <span >100</span>
             </div>
 
             <div id='bookmarkDiv'>
                 <div className='p-2' onClick={() => setBookmark(!bookmark)}>
-                    {bookmark ? <BookmarkIcon fontSize='small' /> : <BookmarkBorderIcon fontSize='small' />}
+                    {bookmark ? <BookmarkIcon className={`${bookmark ? "text-white" : "text-[#808080]"}`} fontSize='small' /> : <BookmarkBorderIcon fontSize='small' />}
                 </div>
                 <div className='p-2'>
                     <IosShareIcon fontSize='small' />

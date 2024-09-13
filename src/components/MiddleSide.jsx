@@ -30,8 +30,8 @@ const MiddleSide = () => {
   };
 
   return (
-    <div className='flex w-[100%] flex-col items-start justify-start h-[100%]'>
-      <div style={{zIndex: '999'}} className='flex fixed w-[698px] bg-black items-center justify-center border-b-[1px] border-gray-500'>
+    <div className='flex flex-col w-[100%] items-start justify-start h-[100%]'>
+      <div style={{zIndex: '999'}} className='flex fixed w-[645px] bg-black items-center justify-center border-b-[1px] border-[#181818]'>
          <div onClick={toggleForyou} className={`transition-all w-[50%] h-[60px] flex relative items-center justify-center gap-3 cursor-pointer hover:bg-[#181818] ${foryouActive ? 'opacity-100' : 'opacity-50'}`}>
           <h1 className='font-semibold text-md'>For you</h1>
           <div className={`w-[65px] absolute bottom-0 rounded-2xl bg-blue-500 h-[4px] ${foryouActive ? '' : 'hidden'}`}></div>

@@ -1,0 +1,13 @@
+Today Tasks:
+1. Profile Section (frontend) //done
+2. Right Side bar //done
+
+Features yet to be added:
+1. Local storing of posts
+2. Bookmark working
+3. Profile Section (Login/Signup)
+4. Fetch real tweets (maybe)
+5. Search / Filter posts
+6. Pin posts
+7. Dark mode toggle
+8. Infinite scrollling

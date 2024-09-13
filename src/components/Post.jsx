@@ -12,7 +12,7 @@ const Post = ({ post, deletePost }) => {
   };
 
   return (
-    <div className='relative flex items-start justify-between px-6 py-4 w-[100%] border border-t-0 border-gray-600'>
+    <div className='relative flex items-start justify-between px-6 py-4 w-[100%] border border-t-0 border-[#181818]'>
       <div className='flex items-start justify-start gap-4 w-[100%]'>
         <img src={UserIcon} width={'40px'} alt="User" className='w-12 h-12 rounded-full' />
         <div className='flex flex-col items-start justify-center gap-2 w-[100%]'>
